@@ -10,9 +10,9 @@ import time
 import hashlib
 import threading
 import jieba
-import utils.conf as conf
-import gen.generator as generator
-import utils.conf as conf
+import seqGanChatbot.utils.conf as conf
+import seqGanChatbot.gen.generator as generator
+import seqGanChatbot.utils.conf as conf
 """
 定义心跳检测函数
 
@@ -77,7 +77,7 @@ def index():
 '''
 #_________________________________________________________________
 import tensorflow as tf
-import execute
+import seqGanChatbot.execute as execute
 
 sess = tf.Session()
 sess, model,vocab, rev_vocab = execute.init_session(sess,conf.gen_config)

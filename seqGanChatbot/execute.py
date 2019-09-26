@@ -3,11 +3,11 @@ import tensorflow as tf
 import numpy as np
 import sys
 import time
-import gen.generator as gens
-import disc.discriminator as disc
+import seqGanChatbot.gen.generator as gens
+import seqGanChatbot.disc.discriminator as disc
 import random
-import utils.conf as conf
-import utils.data_utils as data_utils
+import seqGanChatbot.utils.conf as conf
+import seqGanChatbot.utils.data_utils as data_utils
 from six.moves import xrange
 
 

@@ -25,15 +25,14 @@ import os
 import random
 import sys
 import time
-import prepareData
+import seq2seqChatbot.prepareData as prepareData
 
 import numpy as np
 from six.moves import xrange  
 import tensorflow as tf
 
 from configparser import SafeConfigParser
-import prepareData
-import seq2seq_model
+import seq2seqChatbot.seq2seq_model as seq2seq_model
     
 gConfig = {}
 
